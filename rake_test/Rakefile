@@ -1,0 +1,9 @@
+desc 'Задача по умолчанию'
+task default: 'main:load'
+
+namespace :main do
+desc 'Задача по выводу времени'
+task :load do
+  puts Time.
+end
+end
